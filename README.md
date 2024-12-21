@@ -1,11 +1,10 @@
-# README
 
-## Project Overview
+# Project Overview
 - Predict Rotten Tomatoes audience ratings using machine learning models.
 - Dataset includes features like movie title, rating, tomatometer rating, runtime, and critics’ consensus.
 - Target variable: `audience_rating`.
 
-## Key Features
+# Key Features
 - **Exploratory Data Analysis (EDA)**: Visualize distributions, correlations, and genre/studio trends.
 - **Feature Engineering**:
   - Created `date_difference` (difference between release and streaming dates).
@@ -23,6 +22,6 @@
   - Supports model selection and real-time predictions.
   - Displays evaluation metrics and results.
 
-## Deployment
+# Deployment
 - Models saved using `joblib` for deployment.
 - Streamlit app processes inputs, encodes features, performs sentiment analysis, and scales data for predictions.
